@@ -1,0 +1,80 @@
++ matlab -nodisplay -r 'addpath(genpath('\''.'\'')); main'
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2021 The MathWorks, Inc.
+                  R2021b (9.11.0.1769968) 64-bit (glnxa64)
+                             September 17, 2021
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+
+----------------------------------
+Run experiment for Figure 3.
+Plot and save Figure 3 to 'Figure_3.png'.
+Optimal Solutions for Figure 3 is:
+   -0.2000    1.5000
+    0.1000   -2.2000
+    0.2000   -2.3000
+
+
+----------------------------------
+Run experiment for Figure 4.
+Running lane-keeping with DM...
+Use pro-recoverability DM.
+Progress: 1/59
+Progress: 11/59
+Progress: 21/59
+Progress: 31/59
+Progress: 41/59
+Progress: 51/59
+Finished.
+Use pro-durability DM.
+Progress: 1/59
+Progress: 11/59
+Progress: 21/59
+Progress: 31/59
+Progress: 41/59
+Progress: 51/59
+Finished.
+Use adaptive DM.
+Progress: 1/59
+Progress: 11/59
+Progress: 21/59
+Progress: 31/59
+Progress: 41/59
+Progress: 51/59
+Finished.
+Use minimal-distance DM.
+Progress: 1/59
+Progress: 11/59
+Progress: 21/59
+Progress: 31/59
+Progress: 41/59
+Progress: 51/59
+Finished.
+Plot and save Figure 4 to 'Figure_4.png'.
+The (rec,dur) pairs of the DM are.....
+The pro-recoverability DM: 0.3        -2.2
+The pro-durability DM: -0.2         1.5
+The adaptive DM: 0 -2
+The minimal-distance DM: -0.2         1.5
+Average computation time for a control action: 4.7393 secs.
+----------------------------------
+Run experiment for Figures 5 and 6.
+Plot and save Figure 5 to 'Figure_5a.png' and 'Figure_5b.png'.
+Plot and save Figure 6 to 'Figure_6a.png' and 'Figure_6b.png'.
+Optimal Solutions for Figure 5 is:
+    -4     4
+    -3     1
+     9    -5
+
+----------------------------------
+Run experiment for deadline-driven package delivery in MPC setting.
+The pro-recoverability DM: 9 -5
+The pro-durability DM: -4  4
+The adaptive DM: -4  4
+The minimal-distance DM: -4  4
+Average computation time for a control action: 124.3352 secs.
